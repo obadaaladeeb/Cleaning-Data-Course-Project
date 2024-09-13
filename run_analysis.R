@@ -13,6 +13,10 @@ if (!file.exists("UCI HAR Dataset")) {
   unzip(filename) 
 }
 
+
+
+
+
 # Step 2: Load the data
 # Read feature names and activity labels
 features <- read.table("UCI HAR Dataset/features.txt", col.names = c("index", "featureName"))
